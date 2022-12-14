@@ -1,1 +1,79 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coming Soon</title>
+  <style>
+    body {
+      background-color: #222;
+      color: #eee;
+      font-family: sans-serif;
+      text-align: center;
+    }
+   h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de;
+  color: Black;
+}
+h1 {
+  ...
+  transition: all 0.5s;
+  font-size: 4em;
+  font-family: "Arial", sans-serif;
+}
+
+h1:hover {
+  color: black;
+  font-size: 5em;
+  
+}
+h1::before {
+  content: "Coming Soon";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
+
+h1::after {
+  content: "DarbyTree 🌳";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  opacity: 0;
+  color:green;
+  
+}
+
+h1:hover::before {
+  opacity: 0;
+}
+
+h1:hover::after {
+  opacity: 1;
+}
+
+h1::before,
+h1::after {
+  ...
+  z-index: 1;
+}
+
+h1 {
+  ...
+  z-index: 0;
+}
+
+
+  </style>
+</head>
+<body>
+  <h1></h1>
+</body>
+</html>
