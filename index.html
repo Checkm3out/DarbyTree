@@ -1,79 +1,47 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-  <title>Coming Soon</title>
-  <style>
-    body {
-      background-color: #222;
-      color: #eee;
-      font-family: sans-serif;
-      text-align: center;
-    }
-   h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 4em;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de;
-  color: Black;
-}
-h1 {
-  ...
-  transition: all 0.5s;
-  font-size: 4em;
-  font-family: "Arial", sans-serif;
-}
-
-h1:hover {
-  color: black;
-  font-size: 5em;
-  
-}
-h1::before {
-  content: "Coming Soon";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.5s;
-}
-
-h1::after {
-  content: "DarbyTree 🌳";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all 0.5s;
-  opacity: 0;
-  color:green;
-  
-}
-
-h1:hover::before {
-  opacity: 0;
-}
-
-h1:hover::after {
-  opacity: 1;
-}
-
-h1::before,
-h1::after {
-  ...
-  z-index: 1;
-}
-
-h1 {
-  ...
-  z-index: 0;
-}
+    <link rel="stylesheet" type="text/css" href="DarbyTree/css/temp.css">
 
 
-  </style>
 </head>
+
 <body>
-  <h1></h1>
+    <div class="flip-container centered">
+        <div class="flipper">
+            
+            <div class="back">
+                <div class="d">
+                <h1>Darby Tree</h1>                  
+                  
+                <p>Tree Removal Services</p>
+                <div class="font-a-icons">
+                    <div class="icon-group">
+                        <span class="bold">T: </span><span class="contact">321-262-8934</span>
+                        <div class="icon-group">
+                            <span class="bold">E: </span><a class="contact" href="mailto:arborbloom21@gmail.com"
+                                target="_top">arborbloom21@gmail.com</a>
+                        </div>
+                        <div class="icon-group">
+                            <a class="contact" href="http://www.DarbyTree.com" target="_blank">DarbyTree.com</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a class="icon-box" href="https://www.facebook.com/" target="_blank"><i
+                        class="fa fa-facebook"></i></a> -->
+                <!-- <a class="icon-box" href="https://twitter.com/" target="_blank"><i
+                        class="fa fa-twitter"></i></a>
+                <a class="icon-box" href="https://plus.google.com/" target="_blank"><i
+                        class="fa fa-google-plus"></i></a>
+                <a class="icon-box" href="https://www.linkedin.com/" target="_blank"><i
+                        class="fa fa-linkedin"></i></a>
+                <a class="icon-box" href="https://codepen.io/" target="_blank"><i
+                        class="fa fa-codepen"></i></a> -->
+                    </div>
+            </div>
+        
+            <div class="front"></div>
+            
+        </div>
+    </div>
 </body>
-</html>
