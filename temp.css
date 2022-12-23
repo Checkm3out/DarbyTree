@@ -9,7 +9,7 @@
 }
 /* /end */
 body {
-  background-image: url("DarbyTree/background1.jpg");
+  background-image: url("https://github.com/Checkm3out/DarbyTree/blob/temp-site/background1.jpg");
   background-attachment: scroll;
   background-size: fit;
   background-position: right center;
@@ -31,7 +31,7 @@ h3 {
 } */
 
 .back {
-  background-image: url("DarbyTree/DT_LOGO.png");
+  background-image: url("https://github.com/Checkm3out/DarbyTree/blob/temp-site/DT_LOGO.png");
   background-size: 25%;
   background-position: top left;
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@ h3 {
   }
   /* /end */
   body {
-    background-image: url("DarbyTree/background1.jpg");
+    background-image: url("https://github.com/Checkm3out/DarbyTree/blob/temp-site/background1.jpg");
     background-attachment: scroll;
     background-size: fit;
     background-position: center;
@@ -186,7 +186,7 @@ h3 {
   } */
   
   .back {
-    background-image: url("DarbyTree/DT_LOGO.png");
+    background-image: url("https://github.com/Checkm3out/DarbyTree/blob/temp-site/DT_LOGO.png");
     background-size: 25%;
     background-position: top left;
     background-repeat: no-repeat;
